@@ -20,7 +20,7 @@ steps:
     script: |
       echo Write your commands here
       echo Hello world
-      gcc --version
+      hostname
 
 - task: UsePythonVersion@0
   inputs:
