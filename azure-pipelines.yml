@@ -1,8 +1,10 @@
 trigger:
 - main
 
+# pool:
+#  vmImage: ubuntu-latest
 pool:
-  vmImage: ubuntu-latest
+  name: kubernetes-general-purpose-agents
 
 steps:
 - script: echo Hello, world!
